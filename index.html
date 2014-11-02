@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+        <META name="viewport" content="initial-scale=1">
+        <TITLE>
+            Balti | Helping ALSis across the world.
+        </TITLE>
+        <LINK rel="icon" href="images/favicon.ico" type="image/x-icon" />
+        <!-- Embedding Google Fonts -->
+        <LINK href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+        <LINK href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
+        <!-- Embedding stylesheets -->
+        <LINK rel="stylesheet" href="stylesheets/normalize.css" />
+        <LINK rel="stylesheet" href="stylesheets/style.css" />
+        <LINK rel="stylesheet" href="stylesheets/override.css" />
+        <LINK rel="stylesheet" href="stylesheets/animate.css" />
+        <!-- Embedding scripts -->
+        <SCRIPT src="scripts/wow.min.js"></SCRIPT>
+        <SCRIPT src="scripts/header.js"></SCRIPT>
+        <SCRIPT type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.js"></SCRIPT>
+    </HEAD>
+    <BODY>
+        
+        <DIV class="nav" id="bar">
+                <IMG src="images/banner.png" align="left" class="menu link" href="#hero" />
+                <A class="link" href="#about">About Us</A>
+                <A class="link" href="#squad">The Team</A>
+                <A class="link" href="#als">About ALS</A>
+                <A class="link" href="#donate" id="donate-button">Donate</A>
+            </DIV>
+        <DIV class="container">
+            <DIV class="row section wow fadeInUp" id="hero">
+                <DIV class="column full">
+                    <CENTER>
+                        <IMG src="images/logo.png" class="wow fadeInDown banner"/>
+                    </CENTER>
+                    <BR />
+                    <DIV class="column full heading wow fadeInDown">
+                        Balti
+                    </DIV>
+                    <DIV class="column full subheading wow fadeInDown">
+                        Helping ALSis across the world.
+                    </DIV>
+                </DIV>
+            </DIV>
+
+            <DIV class="row section wow fadeInUp" id="about">
+                <DIV class="column full title wow fadeInDown">
+                    About Us
+                </DIV>
+                <DIV class="column two-thirds wow fadeInUp">
+                    <P>
+                        We are Balti, a non-profit NGO based in <b>Balti</b>more, US.
+                        <BR /><BR />
+                        We started out as a two-man team on a mission: to help ALS patients (or ALSis, cuz they lazy). So far, we're still a two-man team but have helped thousands of patients across the world. We provide care to ALSis, helping them get in contact with caretakers and neccesary supplies.
+                        <BR /><BR />
+                        We also accept donations towards the ALS fund. So if you took the ALS Ice Bucket challenge, <A class="link" href="#donate">donate</A> here.
+                    </P>
+                </DIV>
+                <DIV class="column one-third wow fadeInUp">
+                    <CENTER>
+                        <IMG src="images/logo.png" id="team" />
+                    </CENTER>
+                </DIV>
+            </DIV>
+
+            <DIV class="row wow section fadeInUp" id="squad">
+                <DIV class="column full title wow fadeInDown">
+                    The Team
+                </DIV>
+                <DIV class="column half squad" style="margin-left:0;">
+                    
+                    <IMG class="eb" src="https://graph.facebook.com/gaurav.loothra/picture?width=158&height=158" />
+                    <BR />
+                    <A href="http://fb.me/gaurav.loothra" class="names" target="_blank">Gaurav Loothra</A>
+                    <BR />
+                    <SPAN class="post">
+                        Graphic Artist
+                    </SPAN>
+                </DIV>
+                <DIV class="column half squad">
+                    
+                    <IMG class="eb" src="https://graph.facebook.com/parth.dhar.5/picture?width=158&height=158" />
+                    <BR />
+                    <A href="http://fb.me/parth.dhar.5" class="names" target="_blank">Parth Dhar</A>
+                    <BR />
+                    <SPAN class="post">
+                        Web Designer
+                    </SPAN>
+                </DIV>
+            </DIV>
+
+            <DIV class="row section wow fadeInUp" id="als">
+                <DIV class="column full title wow fadeInDown">
+                    About ALS
+                </DIV>
+                <DIV class="column full wow fadeInUp">
+                    <P>
+                        Amyotrophic lateral sclerosis (ALS) is a progressive neurodegenerative disease that affects nerve cells in the brain and the spinal cord. Eventually, people with ALS lose the ability to initiate and control muscle movement, which often leads to total paralysis and death within two to five years of diagnosis. For unknown reasons, veterans are twice as likely to develop ALS as the general population. There is no cure, and only one drug approved by the U.S. Food and Drug Administration (FDA) modestly extends survival.
+                        <BR /><BR />
+                        Some facts about ALS:
+
+                        <ul>
+                            <li>ALS is more commonly known as Lou Gehrig's Disease.</li>
+                            <li>PALS stands for Person(s) Living with ALS. We often refer to their caregivers as CALS.</li>
+                            <li>Every 90 minutes someone is diagnosed with ALS, and every 90 minutes someone loses their battle to this fatal disease.</li>
+                            <li>The average life span after diagnosis is 2-5 years.</li>
+                            <li>Military veterans are twice as likely as the general population to die from ALS.</li>
+                            <li>Living with ALS can cost more than $200,000 per year.</li>
+                        </ul>
+                    </P>
+                </DIV>
+            </DIV>
+
+            <DIV class="row wow section fadeInUp" id="donate">
+                <DIV class="column full title wow fadeInDown">
+                    Donate
+                </DIV>
+                <DIV class="column full form" style="margin-left:0;">
+                    <P>
+                        Donate generously towards developing a cure for ALS
+                    </P>
+                    <FORM action="javascript:formParse()">
+                        <INPUT type="text" name="name" required placeholder="Full Name" />
+                        <INPUT type="email" name="email" required placeholder="E-Mail Address" />
+                        <INPUT type="number" min="1" name="amount" required placeholder="Donation Amount (BTC)"/>
+                        <BUTTON id="donate-button">
+                            Donate
+                        </BUTTON>
+                    </FORM>
+                </DIV>
+            </DIV>
+
+        </DIV>
+        <DIV class="wow fadeIn foot">
+            <BR />
+            Made with &hearts; in Baltimore
+            <BR />
+        </DIV>
+        <SCRIPT>
+            new WOW().init();
+            /*
+            window.addEventListener("orientationchange", function() {
+                if(window.innerHeight < window.innerWidth){ 
+                    $('.link').css('opacity','1');
+                    $('.link').css('display','inline-block');
+                }
+            }, false);
+
+            $( window ).on( "orientationchange", function( event ) {
+                if ($(window).width() < $('.schedule').width()) {
+                    $('.sched').css('display','inline-block');
+                    $('.schedule').css('display','none');
+                }
+
+            });
+            */
+            // smooth scroll
+            var navbarHeight = $('.nav').height(); // assuming height remains constant
+            $('.link').click(function() {
+                var link = $(this);
+                $('html, body').animate({ scrollTop: $(link.attr('href')).offset().top - navbarHeight});
+                return false;
+            });
+
+            function formParse() {
+                if ($('input[type="number"]').val() == '42') {
+                    alert("wow\nmany rich\nsuch btc");
+                }
+                else {
+                    alert("Thankyou for your generous donation.");
+                }
+            }
+
+        </SCRIPT>
+    </BODY>
+</HTML>
